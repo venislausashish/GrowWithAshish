@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: rgb(24, 22, 22);
+}
+
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    bottom:  2%;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.change{
+    background-color: antiquewhite;
+    border: 2px 2px solid black;
+    border-radius: 8px;
+    padding: 4px 8px;
+    text-shadow: 0.4px 0.6px blueviolet;
+}
+
+.dark{
+    background-color: rgb(0, 0, 0);
+    color: #e6e6e6;
+}
+
+.logo{
+    display: flex;
+    width:20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 40%;
+    padding: 0 0;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 120px;
+}
+.nav-list{
+    width: 50%;
+    background-color: rgb(22, 19, 19, 0.0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 15px;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+    background-color: rgb(22, 19, 19, 0.0);
+    padding: 0 22px;
+
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('andreas-m-ykfjtb0kphU-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;     
+}
+
+.firstSection{
+    height: 500px;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    max-width: 50%;
+    margin: auto;
+    height: 74%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 70%;
+    padding: 0 0;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 120px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 32px;
+    color: blueviolet;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+#headi{
+    font-size: 32px;
+    color: blueviolet;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.text.small{
+    font-size: 18px;
+}
+
+.btn{
+    padding: 6px 20px;
+    margin: 7px 3px;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn:hover{
+    padding: 6px 20px;
+    margin: 7px 3px;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    background: none;
+    font-size: 14px;
+    color: blueviolet;
+    background-color: rgb(24, 22, 22,.8);
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    margin: 7px 3px;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-sm:hover{
+    padding: 6px 10px;
+    margin: 7px 3px;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    background: none;
+    color: blueviolet;
+    background-color: rgb(24, 22, 22,.8);
+    cursor: pointer;
+}
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(31, 30, 30);
+    color: wheat;
+    
+}
+
+.abouttt{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
